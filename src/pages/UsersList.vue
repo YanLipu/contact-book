@@ -35,7 +35,6 @@ export default defineComponent({
     });
 
     const saveUser = async (value) => {
-      console.log('value', value);
       await api.post(
         '/api/usuario/salvar',
         {

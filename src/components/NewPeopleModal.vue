@@ -886,7 +886,6 @@ export default defineComponent({
           pais: country.value,
         },
       };
-      console.log('newUser', newUser);
       emit('savePeople', newUser);
     };
 
