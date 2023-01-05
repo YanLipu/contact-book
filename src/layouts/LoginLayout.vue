@@ -80,7 +80,6 @@ export default defineComponent({
         user.setId(result.data.id);
         goToRoot();
       }
-      console.log('result', result);
     };
     return {
       onSubmit,

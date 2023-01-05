@@ -51,7 +51,6 @@ export default defineComponent({
           Authorization: `Bearer ${user.getToken}`,
         },
       });
-      console.log('data', data.value);
     });
 
     const search = async (value) => {

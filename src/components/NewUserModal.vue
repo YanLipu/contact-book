@@ -149,7 +149,6 @@ export default defineComponent({
     ];
 
     const onSubmit = () => {
-      console.log('type.value', type.value);
       const newUser = {
         tipos: [
           type.value,
@@ -164,7 +163,6 @@ export default defineComponent({
           username: username.value,
         },
       };
-      console.log('newUser', newUser);
       emit('saveUser', newUser);
     };
 
