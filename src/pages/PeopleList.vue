@@ -30,6 +30,7 @@ export default defineComponent({
     const user = userStore();
 
     const search = (value) => {
+      console.log('value', value);
     };
 
     const getData = async () => api.get(`/api/pessoa/buscar/${8}`, {
